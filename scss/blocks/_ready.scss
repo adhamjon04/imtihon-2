@@ -1,0 +1,42 @@
+.ready {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        font-family: 'DM Serif Display';
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.369231px;
+        color: #36536B;
+    }
+    &__list {
+        margin-top: 60px;
+        margin-right: 174px;
+    }
+    &__form {
+        display: flex;
+        top: 100px;
+    }
+    &__input {
+        width: 445px;
+        height: 56px;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        border-radius: 24px;
+        border: none;
+        font-size: 15px;
+        line-height: 18px;
+        color: #36536b;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        margin-right: -174px;
+        padding-left: 27px;
+    }
+    &__btn {
+        height: 55px;
+        position: absolute;
+        z-index: 1;
+        margin-top: -55px;
+        margin-left: 272px;
+    }
+}
