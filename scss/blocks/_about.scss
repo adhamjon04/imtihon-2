@@ -1,0 +1,80 @@
+.about {
+    background-color: #1B262F;
+    margin-top: 250px;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__list {
+        max-width: 445px;
+        padding-top: 1px;
+    }
+    &__title {
+        margin-bottom: 24px;
+        font-family: 'DM Serif Display';
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.369231px;
+        color: #FBFCFE;
+    }
+    &__item {
+        margin-bottom: 32px;
+        font-size: 15px;
+        line-height: 28px;
+        color: #FBFCFE;
+        mix-blend-mode: normal;
+        opacity: 0.7;
+    }
+    &__use {
+        margin-bottom: 48px;
+        width: 129px;
+        height: 48px;
+        background: none;
+        border: 1px solid #FBFCFE;
+        box-sizing: border-box;
+        border-radius: 24px;
+        &:active {
+            opacity: 0.8;
+            background-color: darkslategray;
+        }
+    }
+    &__link {
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.115385px;
+        color: #FBFCFE;
+    }
+    &__company {
+        flex-direction: row;
+        margin-top: 135px;
+    }
+    &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    &__icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__linkid {
+        padding-right: 30px;
+        &:active {
+            path {
+                fill: dodgerblue;
+            }
+        }
+    }
+    &__linkids {
+        padding-right: 38px;
+        &:active {
+            path {
+                fill: dodgerblue;
+            }
+        }
+    }
+}
