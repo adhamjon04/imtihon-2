@@ -1,4 +1,5 @@
 .about {
+    width: 100%;
     background-color: #1B262F;
     margin-top: 250px;
     margin-bottom: 150px;
@@ -77,6 +78,31 @@
             path {
                 fill: dodgerblue;
             }
+        }
+    }
+}
+
+@media only screen and(max-width:768px) {
+    .about {
+        &__list {
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            flex-direction: column;
+            text-align: center;
+            margin-top: 130px;
+        }
+        &__title {
+            width: 450px;
+            height: 50px;
+            margin-top: 24px;
+        }
+        &__company {
+            margin-left: auto;
+            margin-right: auto;
+            height: 110px;
+            margin-top: 30px;
+            margin-left: -550px;
         }
     }
 }
