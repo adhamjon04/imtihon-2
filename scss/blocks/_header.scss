@@ -89,18 +89,10 @@
 }
 
 @media only screen and(max-width:768px) {
-    .header {
-        &__btn {
-            display: none;
-        }
-        &__btns {
-            display: flex;
-        }
-    }
+    .header {}
     .navbar {
         &__list {
             margin-right: 0px;
-            display: none;
         }
     }
 }

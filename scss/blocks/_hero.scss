@@ -44,8 +44,41 @@
         top: -168px;
         margin-bottom: 75px;
     }
+    &__imgs {
+        display: none;
+    }
     &__btn {
         position: absolute;
         z-index: 1;
+    }
+}
+
+@media only screen and(max-width:768px) {
+    .hero {
+        &__container {
+            display: block;
+        }
+        &__img {
+            display: none;
+        }
+        &__imgs {
+            position: absolute;
+            display: flex;
+            transform: translateX(10px);
+            transform: translateY(-900px);
+            left: 16px;
+        }
+        &__list {
+            position: relative;
+            bottom: -244px;
+            text-align: center;
+            left: 100px;
+            margin-right: 0px;
+        }
+        &__title {
+            font-size: 48px;
+            line-height: 56px;
+            text-align: center;
+        }
     }
 }

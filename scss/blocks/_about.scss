@@ -31,7 +31,7 @@
         width: 129px;
         height: 48px;
         background: none;
-        border: 1px solid #FBFCFE;
+        border: 1px solid #EDF3F8;
         box-sizing: border-box;
         border-radius: 24px;
         &:active {
@@ -45,6 +45,7 @@
         text-align: center;
         letter-spacing: -0.115385px;
         color: #FBFCFE;
+        border: none;
     }
     &__company {
         flex-direction: row;

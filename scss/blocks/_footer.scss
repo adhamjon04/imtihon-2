@@ -1,6 +1,8 @@
 .footer {
     background-color: #1B262F;
     &__container {
+        margin-top: 31px;
+        margin-bottom: 32px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -17,6 +19,10 @@
         color: #FBFCFE;
         mix-blend-mode: normal;
         opacity: 0.7;
+        &:active {
+            color: #FBFCFE;
+            opacity: 1;
+        }
     }
     &__icon {
         margin-right: 24px;
